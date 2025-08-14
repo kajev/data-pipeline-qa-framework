@@ -1,0 +1,6 @@
+{
+  "etl_processing_time_seconds": 30.0,
+  "data_validation_time_seconds": 5.0,
+  "memory_usage_mb": 500.0,
+  "throughput_records_per_second": 1000.0
+}

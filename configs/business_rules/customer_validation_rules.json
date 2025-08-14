@@ -1,0 +1,31 @@
+{
+  "required_columns": [
+    "customer_id",
+    "name",
+    "email"
+  ],
+  "critical_columns": [
+    "customer_id",
+    "email"
+  ],
+  "min_row_count": 100,
+  "max_null_percentage": {
+    "customer_id": 0,
+    "name": 1,
+    "email": 2
+  },
+  "value_ranges": {
+    "age": [
+      18,
+      120
+    ],
+    "total_spent": [
+      0,
+      50000
+    ]
+  },
+  "unique_columns": [
+    "customer_id",
+    "email"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "test_db",
+    "user": "test_user",
+    "password": "test_password"
+  },
+  "validation_thresholds": {
+    "data_quality_minimum": 0.95,
+    "accuracy_threshold": 0.05,
+    "latency_threshold_ms": 1000
+  }
+}
